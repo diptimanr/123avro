@@ -1,0 +1,39 @@
+{
+    "namespace": "avro123.exmaple",
+    "name": "POSEvent",
+    "type": "record",
+    "fields": [
+        {
+            "name": "store_id",
+            "type": "int"
+        },
+        {
+            "name": "workstation_id",
+            "type": "int"
+        },
+        {
+            "name": "operator_id",
+            "type": "string"
+        },
+        {
+            "name": "item_id",
+            "type": "int"
+        },
+        {
+            "name": "item_desc",
+            "type": "string"
+        },
+        {
+            "name": "unit_price",
+            "type": "float",
+            "logicalType": "decimal",
+            "precision": "10",
+            "scale": 2
+        },
+        {
+            "name": "txn_date",
+            "type": "long",
+            "logicalType": "timestamp-millis"
+        }
+    ]
+}
