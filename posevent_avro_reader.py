@@ -10,7 +10,7 @@ def main():
 
         reader.close()
     except FileNotFoundError:
-        print(f"")
+        print(f"{avrobinfile} not found.")
 
 if __name__ == '__main__':
     main()
